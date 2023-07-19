@@ -81,9 +81,9 @@ class _WebScreen1State extends State<WebScreen1> {
                         flex: 2,
                         child: TextField(
                           decoration: InputDecoration(
-                            filled: true,
-                            fillColor: Colors.black12,
-                            hintText: 'Search doctor',
+                            //filled: true,
+                            // fillColor: Colors.black12,
+                            hintText: '   Search doctor',
                             suffixIcon: const Icon(Icons.search),
                             border: OutlineInputBorder(
                               borderRadius: BorderRadius.circular(30),
@@ -99,6 +99,7 @@ class _WebScreen1State extends State<WebScreen1> {
                   height: 50,
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceAround,
+                    mainAxisSize: MainAxisSize.max,
                     children: [
                       Container(
                         decoration: BoxDecoration(
@@ -222,6 +223,7 @@ class _WebScreen1State extends State<WebScreen1> {
                         ),
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.spaceAround,
+                          mainAxisSize: MainAxisSize.max,
                           children: [
                             Row(
                               children: [
@@ -274,6 +276,7 @@ class _WebScreen1State extends State<WebScreen1> {
                                 ))),
                             Row(
                               mainAxisAlignment: MainAxisAlignment.spaceAround,
+                              mainAxisSize: MainAxisSize.max,
                               children: [
                                 Container(
                                   padding: const EdgeInsets.all(5),
@@ -284,6 +287,7 @@ class _WebScreen1State extends State<WebScreen1> {
                                   child: const Row(
                                     mainAxisAlignment:
                                         MainAxisAlignment.spaceEvenly,
+                                    mainAxisSize: MainAxisSize.max,
                                     children: [
                                       SizedBox(
                                         width: 10,
